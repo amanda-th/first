@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+p, h1, h2, h3, h4 {
+    font-family: "Open Sans", sans-serif;
+}
+
+.topo {
+    border-bottom: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topo p {
+    color: #FCFCF6;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.background {
+    background-color: #FCFCF6;
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.text-container h1, h2, h3, .start, .learn {
+    margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#cont-img {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-right: 0;
+}
+
+#cont-img img {
+    width: 120%;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+}
+
+.start {
+    color: #FCFCF6;
+    width: 50px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: black;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#start-link {
+    text-decoration: none;
+    color: white;
+}
+
+.start:hover {
+    background-color: rgb(88, 88, 88);
+    border: 1px solid rgb(88, 88, 88);
+}
+
+a.learn {
+    width: 30px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+a.learn:hover {
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    border: 1px solid black;
+    background-color: #FCFCF6;
+}
+
+.container img {
+    border: 1px solid black;
+    display: block;
+    margin-top: 10px;
+    width: 150px;
+}
+
+.tracklist, .title{
+    padding: 20px;
+}
+
+#outside, .tracklist {
+    background-color: #030205;
+    color: #FCFCF6;
+    text-align: center;
+    margin: 0;
+}
+
+.music img {
+    width: 50px;
+}
+
+.title{
+    background-color: #FCFCF6;
+    margin: 0;
+    text-align: center;
+}
+
+.genres {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.text{
+    max-width: 50%;
+    padding: 20px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.logo{
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
